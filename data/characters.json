@@ -1,0 +1,731 @@
+[
+  {
+    "id": "miho",
+    "name": "西住みほ",
+    "short": "み",
+    "color": "#e8833a",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 100,
+      "gunner": 70,
+      "loader": 60,
+      "driver": 60,
+      "radio": 70
+    },
+    "skills": [
+      "calm_observation",
+      "cupola",
+      "sixth_sense",
+      "adaptive",
+      "panzer_vor"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "saori",
+    "name": "武部沙織",
+    "short": "沙",
+    "color": "#e86fa2",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 50,
+      "gunner": 50,
+      "loader": 60,
+      "driver": 50,
+      "radio": 100
+    },
+    "skills": [
+      "mood_maker",
+      "wide_radio"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "hana",
+    "name": "五十鈴華",
+    "short": "華",
+    "color": "#5aa469",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 50,
+      "gunner": 100,
+      "loader": 60,
+      "driver": 50,
+      "radio": 50
+    },
+    "skills": [
+      "focus",
+      "precise_shot",
+      "one_shot"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "yukari",
+    "name": "秋山優花里",
+    "short": "優",
+    "color": "#b38b5d",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 70,
+      "gunner": 70,
+      "loader": 100,
+      "driver": 60,
+      "radio": 60
+    },
+    "skills": [
+      "tank_otaku",
+      "quick_load",
+      "sneak"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "mako",
+    "name": "冷泉麻子",
+    "short": "麻",
+    "color": "#4b5ba8",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 50,
+      "gunner": 60,
+      "loader": 50,
+      "driver": 100,
+      "radio": 50
+    },
+    "skills": [
+      "genius",
+      "smooth_drive",
+      "quick_turn"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "erwin",
+    "name": "エルヴィン",
+    "short": "エ",
+    "color": "#8a7a45",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 95,
+      "gunner": 60,
+      "loader": 60,
+      "driver": 50,
+      "radio": 60
+    },
+    "skills": [
+      "military_history",
+      "ambush_tactics",
+      "sixth_sense"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "saemonza",
+    "name": "左衛門佐",
+    "short": "左",
+    "color": "#a8443c",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 50,
+      "gunner": 95,
+      "loader": 60,
+      "driver": 50,
+      "radio": 50
+    },
+    "skills": [
+      "precise_shot"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "caesar",
+    "name": "カエサル",
+    "short": "カ",
+    "color": "#c9a640",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 50,
+      "gunner": 60,
+      "loader": 95,
+      "driver": 50,
+      "radio": 70
+    },
+    "skills": [
+      "quick_load"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "oryou",
+    "name": "おりょう",
+    "short": "お",
+    "color": "#6a5a8a",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 50,
+      "gunner": 50,
+      "loader": 50,
+      "driver": 95,
+      "radio": 50
+    },
+    "skills": [
+      "smooth_drive"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "anzu",
+    "name": "角谷杏",
+    "short": "杏",
+    "color": "#d9b13b",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 90,
+      "gunner": 60,
+      "loader": 80,
+      "driver": 50,
+      "radio": 50
+    },
+    "skills": [
+      "composure",
+      "surprise_move"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "momo",
+    "name": "河嶋桃",
+    "short": "桃",
+    "color": "#7a8fa6",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 60,
+      "gunner": 70,
+      "loader": 60,
+      "driver": 50,
+      "radio": 60
+    },
+    "skills": [
+      "wild_fire"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "yuzu",
+    "name": "小山柚子",
+    "short": "柚",
+    "color": "#d98fb0",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 50,
+      "gunner": 50,
+      "loader": 50,
+      "driver": 90,
+      "radio": 80
+    },
+    "skills": [
+      "smooth_drive"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "azusa",
+    "name": "澤梓",
+    "short": "梓",
+    "color": "#7fb0d6",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 85,
+      "gunner": 60,
+      "loader": 60,
+      "driver": 50,
+      "radio": 60
+    },
+    "skills": [
+      "rising_star",
+      "rabbit_teamwork"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "ayumi",
+    "name": "山郷あゆみ",
+    "short": "あ",
+    "color": "#e0a060",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 50,
+      "gunner": 85,
+      "loader": 60,
+      "driver": 50,
+      "radio": 50
+    },
+    "skills": [],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "aya",
+    "name": "大野あや",
+    "short": "や",
+    "color": "#c07ad0",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 50,
+      "gunner": 60,
+      "loader": 85,
+      "driver": 50,
+      "radio": 50
+    },
+    "skills": [
+      "quick_load"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "karina",
+    "name": "阪口桂利奈",
+    "short": "桂",
+    "color": "#e06060",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 50,
+      "gunner": 50,
+      "loader": 50,
+      "driver": 85,
+      "radio": 50
+    },
+    "skills": [
+      "smooth_drive"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "yuuki",
+    "name": "宇津木優季",
+    "short": "季",
+    "color": "#f0a0c0",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 50,
+      "gunner": 50,
+      "loader": 50,
+      "driver": 50,
+      "radio": 85
+    },
+    "skills": [
+      "wide_radio"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "saki",
+    "name": "丸山紗希",
+    "short": "紗",
+    "color": "#a0a0a0",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 50,
+      "gunner": 60,
+      "loader": 80,
+      "driver": 50,
+      "radio": 50
+    },
+    "skills": [
+      "quiet_watch"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "noriko",
+    "name": "磯辺典子",
+    "short": "典",
+    "color": "#f0c040",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 85,
+      "gunner": 60,
+      "loader": 85,
+      "driver": 50,
+      "radio": 50
+    },
+    "skills": [
+      "guts",
+      "guts_rush"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "taeko",
+    "name": "近藤妙子",
+    "short": "妙",
+    "color": "#80c080",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 50,
+      "gunner": 50,
+      "loader": 50,
+      "driver": 50,
+      "radio": 85
+    },
+    "skills": [
+      "wide_radio"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "shinobu",
+    "name": "河西忍",
+    "short": "忍",
+    "color": "#6080c0",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 50,
+      "gunner": 50,
+      "loader": 50,
+      "driver": 85,
+      "radio": 50
+    },
+    "skills": [
+      "smooth_drive"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "akebi",
+    "name": "佐々木あけび",
+    "short": "け",
+    "color": "#e08040",
+    "school": "大洗",
+    "proficiency": {
+      "commander": 50,
+      "gunner": 85,
+      "loader": 50,
+      "driver": 50,
+      "radio": 50
+    },
+    "skills": [
+      "spike"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "darjeeling",
+    "name": "ダージリン",
+    "short": "ダ",
+    "color": "#c0392b",
+    "school": "聖グロリアーナ",
+    "proficiency": {
+      "commander": 100,
+      "gunner": 70,
+      "loader": 70,
+      "driver": 60,
+      "radio": 70
+    },
+    "skills": [
+      "sixth_sense",
+      "graceful_advance",
+      "encirclement"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "orange_pekoe",
+    "name": "オレンジペコ",
+    "short": "ペ",
+    "color": "#e6a23c",
+    "school": "聖グロリアーナ",
+    "proficiency": {
+      "commander": 60,
+      "gunner": 60,
+      "loader": 100,
+      "driver": 50,
+      "radio": 60
+    },
+    "skills": [
+      "quick_load"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "assam",
+    "name": "アッサム",
+    "short": "ア",
+    "color": "#d4b483",
+    "school": "聖グロリアーナ",
+    "proficiency": {
+      "commander": 60,
+      "gunner": 100,
+      "loader": 60,
+      "driver": 50,
+      "radio": 50
+    },
+    "skills": [
+      "precise_shot",
+      "data_analysis"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "sg_commander",
+    "name": "聖グロ隊員（車長）",
+    "short": "聖",
+    "color": "#a5463c",
+    "school": "聖グロリアーナ",
+    "proficiency": {
+      "commander": 85,
+      "gunner": 60,
+      "loader": 60,
+      "driver": 60,
+      "radio": 60
+    },
+    "skills": [
+      "sixth_sense"
+    ],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "sg_gunner",
+    "name": "聖グロ隊員（砲手）",
+    "short": "聖",
+    "color": "#a5463c",
+    "school": "聖グロリアーナ",
+    "proficiency": {
+      "commander": 60,
+      "gunner": 85,
+      "loader": 60,
+      "driver": 60,
+      "radio": 60
+    },
+    "skills": [],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "sg_loader",
+    "name": "聖グロ隊員（装填手）",
+    "short": "聖",
+    "color": "#a5463c",
+    "school": "聖グロリアーナ",
+    "proficiency": {
+      "commander": 60,
+      "gunner": 60,
+      "loader": 85,
+      "driver": 60,
+      "radio": 70
+    },
+    "skills": [],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "sg_driver",
+    "name": "聖グロ隊員（操縦手）",
+    "short": "聖",
+    "color": "#a5463c",
+    "school": "聖グロリアーナ",
+    "proficiency": {
+      "commander": 60,
+      "gunner": 60,
+      "loader": 60,
+      "driver": 85,
+      "radio": 60
+    },
+    "skills": [],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  },
+  {
+    "id": "sg_radio",
+    "name": "聖グロ隊員（通信手）",
+    "short": "聖",
+    "color": "#a5463c",
+    "school": "聖グロリアーナ",
+    "proficiency": {
+      "commander": 60,
+      "gunner": 60,
+      "loader": 60,
+      "driver": 60,
+      "radio": 85
+    },
+    "skills": [],
+    "portraits": {
+      "normal": null,
+      "smile": null,
+      "surprised": null,
+      "serious": null,
+      "stunned": null
+    }
+  }
+]

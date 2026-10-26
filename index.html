@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>戦車道RTS（プロトタイプ）</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="game">
+  <div id="app">
+    <header id="topbar">
+      <span class="brand">戦車道RTS</span>
+      <span id="clock">00:00</span>
+      <button id="btn-pause">⏸ 一時停止</button>
+      <span class="speed">速度
+        <button data-speed="0.5">×0.5</button><button data-speed="1">×1</button><button data-speed="2">×2</button>
+      </span>
+      <span id="pause-state"></span>
+      <span class="spacer"></span>
+      <span id="data-badge" class="hidden">エディタのデータで実行中</span>
+      <button id="btn-help">？ 操作</button>
+      <a class="btn-link" href="editor.html" target="_blank">エディタ</a>
+    </header>
+    <aside id="unit-list"></aside>
+    <main id="stage">
+      <canvas id="view"></canvas>
+      <div id="cutin"></div>
+      <div id="log"></div>
+      <canvas id="minimap" width="240" height="180"></canvas>
+      <div id="tooltip" class="hidden"></div>
+      <div id="toast" class="hidden"></div>
+      <div id="paused-banner">一時停止中 ― 命令は出せます</div>
+    </main>
+    <section id="panel"></section>
+  </div>
+
+  <div id="start" class="overlay">
+    <div class="dialog">
+      <h1>戦車道RTS <small>プロトタイプ</small></h1>
+      <p class="dim">ガールズ&amp;パンツァーの非公式二次創作です。車輌・乗員の数値はすべて仮値です。</p>
+      <div id="data-source" class="dim"></div>
+      <label>シナリオ <select id="opt-scenario"></select></label>
+      <p id="scenario-desc"></p>
+      <div id="orbat"></div>
+      <div class="opts">
+        <label>難易度 <select id="opt-difficulty"></select></label>
+        <label>一時停止 <select id="opt-pause"></select></label>
+        <label>車輌の表示倍率 <input id="opt-scale" type="range" min="1" max="4" step="0.2"> <span id="opt-scale-val"></span></label>
+        <label><input id="opt-cutin-slow" type="checkbox"> カットイン中に一瞬スローにする</label>
+        <label><input id="opt-voice" type="checkbox"> ボイスを再生（セリフに音声ファイルがある場合のみ）</label>
+      </div>
+      <div class="actions">
+        <button id="btn-start" class="primary">試合開始</button>
+        <a class="btn-link" href="editor.html" target="_blank">キャラ・戦車エディタを開く</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="result" class="overlay hidden">
+    <div class="dialog">
+      <h1 id="result-title"></h1>
+      <p id="result-reason"></p>
+      <div id="result-stats"></div>
+      <div class="actions">
+        <button id="btn-retry" class="primary">もう一度</button>
+        <button id="btn-title">タイトルへ</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="help" class="overlay hidden">
+    <div class="dialog help">
+      <h2>操作</h2>
+      <table>
+        <tr><th>左クリック／左ドラッグ</th><td>自軍車輌を選択（Shiftで追加）</td></tr>
+        <tr><th>右クリック</th><td>移動（複数選択時は横隊）。敵を右クリックで集中射撃</td></tr>
+        <tr><th>右ドラッグ</th><td>移動先＋到着後の車体の向き</td></tr>
+        <tr><th>Ctrl＋右クリック</th><td>後退（車体を前に向けたまま後進）</td></tr>
+        <tr><th>Q／E</th><td>その場で車体を左右に15°振る（昼飯・豚飯の角度づけ）</td></tr>
+        <tr><th>S／H／Z</th><td>停止／射撃モード切替（自由→待ち伏せ→禁止）／分隊任務に戻す</td></tr>
+        <tr><th>数字キー</th><td>分隊を選択（2回押しでカメラ移動）。Ctrl＋数字で選択車輌をその分隊へ</td></tr>
+        <tr><th>R T G B F X</th><td>選択中の分隊に大まかな指示：偵察・攻撃・防御・後退・追従・手動。続けて地図を右クリック（右ドラッグで敵の方向）</td></tr>
+        <tr><th>スペース</th><td>一時停止（難易度・設定で制限あり）</td></tr>
+        <tr><th>矢印キー／中ボタンドラッグ／ホイール</th><td>カメラ移動／ズーム。ミニマップのクリックでも移動</td></tr>
+      </table>
+      <h2>見方</h2>
+      <ul>
+        <li>▲は車体（頂点が前方）、線は砲の向き。★隊長車、⚑フラッグ車、数字は分隊番号</li>
+        <li>霧の外の敵は見えません。見失った敵は点線で最終確認位置に残ります</li>
+        <li>「通信圏外」の車輌には命令が遅れて届き、発見情報も共有されません</li>
+        <li>👁 は第六感を持つ車長が「見つかった」と気づいた印。持たない車は撃たれるまで気づきません</li>
+        <li>個別命令を出した車は分隊任務から外れます（Zで戻す）</li>
+      </ul>
+      <p class="dim">クリックで閉じる</p>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

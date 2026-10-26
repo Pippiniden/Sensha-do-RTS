@@ -1,0 +1,11 @@
+{
+  "name": "sensha-do-rts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ガールズ&パンツァー二次創作の見下ろし型戦車戦RTS（ブラウザ）",
+  "type": "module",
+  "scripts": {
+    "start": "npx --yes http-server -p 8080 -c-1 .",
+    "test": "node --test tests/"
+  }
+}

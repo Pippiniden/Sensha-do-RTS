@@ -1,0 +1,513 @@
+[
+  {
+    "id": "sixth_sense",
+    "name": "第六感",
+    "layer": "commander",
+    "description": "敵に発見されると3秒後に気づく",
+    "effects": [
+      {
+        "stat": "sixth_sense",
+        "op": "flag",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "camo_master",
+    "name": "迷彩の心得",
+    "layer": "personal",
+    "description": "自車の隠蔽率+10%",
+    "effects": [
+      {
+        "stat": "camo",
+        "op": "add_pct",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "id": "precise_shot",
+    "name": "精密射撃",
+    "layer": "role",
+    "description": "照準時間-15%、弱点ヒット率+5%",
+    "effects": [
+      {
+        "stat": "aim_time",
+        "op": "add_pct",
+        "value": -15
+      },
+      {
+        "stat": "weakspot_chance",
+        "op": "add_pct",
+        "value": 5
+      }
+    ],
+    "role": "gunner"
+  },
+  {
+    "id": "quick_load",
+    "name": "速射装填",
+    "layer": "role",
+    "description": "装填時間-10%",
+    "effects": [
+      {
+        "stat": "reload",
+        "op": "add_pct",
+        "value": -10
+      }
+    ],
+    "role": "loader"
+  },
+  {
+    "id": "smooth_drive",
+    "name": "滑らかな操縦",
+    "layer": "role",
+    "description": "車体旋回+10%、速度+5%",
+    "effects": [
+      {
+        "stat": "hull_traverse",
+        "op": "add_pct",
+        "value": 10
+      },
+      {
+        "stat": "speed",
+        "op": "add_pct",
+        "value": 5
+      }
+    ],
+    "role": "driver"
+  },
+  {
+    "id": "wide_radio",
+    "name": "広域通信",
+    "layer": "role",
+    "description": "通信範囲+30%",
+    "effects": [
+      {
+        "stat": "radio_range",
+        "op": "add_pct",
+        "value": 30
+      }
+    ],
+    "role": "radio"
+  },
+  {
+    "id": "first_aid",
+    "name": "応急処置",
+    "layer": "personal",
+    "description": "気絶からの回復が30%早い",
+    "effects": [
+      {
+        "stat": "stun_recovery",
+        "op": "add_pct",
+        "value": 30
+      }
+    ]
+  },
+  {
+    "id": "field_repair",
+    "name": "修理の心得",
+    "layer": "personal",
+    "description": "モジュール修理+20%",
+    "effects": [
+      {
+        "stat": "repair_speed",
+        "op": "add_pct",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": "calm_observation",
+    "name": "冷静な観察",
+    "layer": "personal",
+    "description": "視認範囲+5%",
+    "effects": [
+      {
+        "stat": "view_range",
+        "op": "add_pct",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "cupola",
+    "name": "キューポラから顔を出す",
+    "layer": "commander",
+    "description": "視認範囲+10%。ただし車長の気絶率+20%",
+    "effects": [
+      {
+        "stat": "view_range",
+        "op": "add_pct",
+        "value": 10
+      },
+      {
+        "stat": "commander_stun_chance",
+        "op": "add_pct",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": "adaptive",
+    "name": "臨機応変",
+    "layer": "leader",
+    "description": "通信網の外へも命令が遅れずに届く",
+    "effects": [
+      {
+        "stat": "no_order_delay",
+        "op": "flag",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "panzer_vor",
+    "name": "パンツァー・フォー",
+    "layer": "active",
+    "description": "通信網内の全車：速度+15%、装填-10%（15秒）",
+    "effects": [
+      {
+        "stat": "speed",
+        "op": "add_pct",
+        "value": 15
+      },
+      {
+        "stat": "reload",
+        "op": "add_pct",
+        "value": -10
+      }
+    ],
+    "requires": "leader",
+    "scope": "network",
+    "duration_s": 15,
+    "cooldown_s": 90
+  },
+  {
+    "id": "focus",
+    "name": "集中",
+    "layer": "personal",
+    "description": "拡散-5%",
+    "effects": [
+      {
+        "stat": "dispersion",
+        "op": "add_pct",
+        "value": -5
+      }
+    ]
+  },
+  {
+    "id": "one_shot",
+    "name": "一射入魂",
+    "layer": "active",
+    "description": "自車：拡散-40%、弱点ヒット率+20%（8秒）",
+    "effects": [
+      {
+        "stat": "dispersion",
+        "op": "add_pct",
+        "value": -40
+      },
+      {
+        "stat": "weakspot_chance",
+        "op": "add_pct",
+        "value": 20
+      }
+    ],
+    "requires": "commander",
+    "scope": "self",
+    "duration_s": 8,
+    "cooldown_s": 60
+  },
+  {
+    "id": "tank_otaku",
+    "name": "戦車マニア",
+    "layer": "personal",
+    "description": "発見した敵の装甲値を表示する",
+    "effects": [
+      {
+        "stat": "enemy_armor_info",
+        "op": "flag",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "sneak",
+    "name": "偵察行動",
+    "layer": "active",
+    "description": "自車：隠蔽率+25%（20秒）",
+    "effects": [
+      {
+        "stat": "camo",
+        "op": "add_pct",
+        "value": 25
+      }
+    ],
+    "requires": "commander",
+    "scope": "self",
+    "duration_s": 20,
+    "cooldown_s": 90
+  },
+  {
+    "id": "genius",
+    "name": "天才肌",
+    "layer": "personal",
+    "description": "車体旋回+10%、速度+5%",
+    "effects": [
+      {
+        "stat": "hull_traverse",
+        "op": "add_pct",
+        "value": 10
+      },
+      {
+        "stat": "speed",
+        "op": "add_pct",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "quick_turn",
+    "name": "急旋回",
+    "layer": "active",
+    "description": "自車：車体旋回+40%（6秒）",
+    "effects": [
+      {
+        "stat": "hull_traverse",
+        "op": "add_pct",
+        "value": 40
+      }
+    ],
+    "requires": "commander",
+    "scope": "self",
+    "duration_s": 6,
+    "cooldown_s": 45
+  },
+  {
+    "id": "mood_maker",
+    "name": "ムードメーカー",
+    "layer": "personal",
+    "description": "自車乗員の気絶回復が30%早い",
+    "effects": [
+      {
+        "stat": "stun_recovery",
+        "op": "add_pct",
+        "value": 30
+      }
+    ]
+  },
+  {
+    "id": "military_history",
+    "name": "戦史研究",
+    "layer": "commander",
+    "description": "視認範囲+5%、隠蔽率+5%",
+    "effects": [
+      {
+        "stat": "view_range",
+        "op": "add_pct",
+        "value": 5
+      },
+      {
+        "stat": "camo",
+        "op": "add_pct",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "ambush_tactics",
+    "name": "伏撃戦術",
+    "layer": "squad_leader",
+    "description": "分隊の隠蔽率+8%",
+    "effects": [
+      {
+        "stat": "camo",
+        "op": "add_pct",
+        "value": 8
+      }
+    ]
+  },
+  {
+    "id": "composure",
+    "name": "余裕",
+    "layer": "commander",
+    "description": "乗員が気絶しにくい",
+    "effects": [
+      {
+        "stat": "stun_resist",
+        "op": "add_pct",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": "surprise_move",
+    "name": "奇策",
+    "layer": "active",
+    "description": "自車：隠蔽率+20%、速度+20%（10秒）",
+    "effects": [
+      {
+        "stat": "camo",
+        "op": "add_pct",
+        "value": 20
+      },
+      {
+        "stat": "speed",
+        "op": "add_pct",
+        "value": 20
+      }
+    ],
+    "requires": "commander",
+    "scope": "self",
+    "duration_s": 10,
+    "cooldown_s": 90
+  },
+  {
+    "id": "wild_fire",
+    "name": "乱射",
+    "layer": "personal",
+    "description": "装填-10%、ただし拡散+25%",
+    "effects": [
+      {
+        "stat": "reload",
+        "op": "add_pct",
+        "value": -10
+      },
+      {
+        "stat": "dispersion",
+        "op": "add_pct",
+        "value": 25
+      }
+    ]
+  },
+  {
+    "id": "rising_star",
+    "name": "成長株",
+    "layer": "commander",
+    "description": "視認範囲+5%",
+    "effects": [
+      {
+        "stat": "view_range",
+        "op": "add_pct",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "rabbit_teamwork",
+    "name": "ウサギの連携",
+    "layer": "squad_leader",
+    "description": "分隊の装填-5%",
+    "effects": [
+      {
+        "stat": "reload",
+        "op": "add_pct",
+        "value": -5
+      }
+    ]
+  },
+  {
+    "id": "quiet_watch",
+    "name": "無口な観察",
+    "layer": "personal",
+    "description": "視認範囲+5%",
+    "effects": [
+      {
+        "stat": "view_range",
+        "op": "add_pct",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "guts",
+    "name": "根性",
+    "layer": "squad_leader",
+    "description": "分隊の乗員が気絶しにくい",
+    "effects": [
+      {
+        "stat": "stun_resist",
+        "op": "add_pct",
+        "value": 30
+      }
+    ]
+  },
+  {
+    "id": "guts_rush",
+    "name": "根性で前進",
+    "layer": "active",
+    "description": "分隊：速度+20%（10秒）",
+    "effects": [
+      {
+        "stat": "speed",
+        "op": "add_pct",
+        "value": 20
+      }
+    ],
+    "requires": "squad_leader",
+    "scope": "squad",
+    "duration_s": 10,
+    "cooldown_s": 60
+  },
+  {
+    "id": "spike",
+    "name": "アタック",
+    "layer": "personal",
+    "description": "弱点ヒット率+5%",
+    "effects": [
+      {
+        "stat": "weakspot_chance",
+        "op": "add_pct",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "graceful_advance",
+    "name": "優雅な前進",
+    "layer": "leader",
+    "description": "通信網内の全車：拡散-8%、装填-5%",
+    "effects": [
+      {
+        "stat": "dispersion",
+        "op": "add_pct",
+        "value": -8
+      },
+      {
+        "stat": "reload",
+        "op": "add_pct",
+        "value": -5
+      }
+    ]
+  },
+  {
+    "id": "encirclement",
+    "name": "包囲",
+    "layer": "active",
+    "description": "通信網内の全車：ダメージ+10%（15秒）",
+    "effects": [
+      {
+        "stat": "damage",
+        "op": "add_pct",
+        "value": 10
+      }
+    ],
+    "requires": "leader",
+    "scope": "network",
+    "duration_s": 15,
+    "cooldown_s": 90
+  },
+  {
+    "id": "data_analysis",
+    "name": "データ分析",
+    "layer": "personal",
+    "description": "弱点ヒット率+5%",
+    "effects": [
+      {
+        "stat": "weakspot_chance",
+        "op": "add_pct",
+        "value": 5
+      }
+    ]
+  }
+]

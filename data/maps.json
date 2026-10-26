@@ -1,0 +1,229 @@
+[
+  {
+    "id": "practice_field",
+    "name": "演習場（森と村）",
+    "width_m": 1200,
+    "height_m": 900,
+    "tile_m": 10,
+    "seed": 7,
+    "base": "plain",
+    "max_spot_m": 400,
+    "features": [
+      {
+        "type": "bush",
+        "shape": "scatter",
+        "x": 180,
+        "y": 60,
+        "w": 840,
+        "h": 780,
+        "count": 70,
+        "size": 10
+      },
+      {
+        "type": "forest",
+        "shape": "circle",
+        "x": 350,
+        "y": 200,
+        "r": 90
+      },
+      {
+        "type": "forest",
+        "shape": "circle",
+        "x": 860,
+        "y": 700,
+        "r": 100
+      },
+      {
+        "type": "forest",
+        "shape": "circle",
+        "x": 300,
+        "y": 770,
+        "r": 70
+      },
+      {
+        "type": "forest",
+        "shape": "circle",
+        "x": 900,
+        "y": 170,
+        "r": 60
+      },
+      {
+        "type": "mud",
+        "shape": "circle",
+        "x": 760,
+        "y": 560,
+        "r": 50
+      },
+      {
+        "type": "mud",
+        "shape": "circle",
+        "x": 460,
+        "y": 330,
+        "r": 40
+      },
+      {
+        "type": "cover",
+        "shape": "line",
+        "path": [
+          [
+            430,
+            540
+          ],
+          [
+            470,
+            630
+          ],
+          [
+            480,
+            720
+          ]
+        ],
+        "width": 10
+      },
+      {
+        "type": "cover",
+        "shape": "line",
+        "path": [
+          [
+            770,
+            240
+          ],
+          [
+            735,
+            330
+          ],
+          [
+            725,
+            400
+          ]
+        ],
+        "width": 10
+      },
+      {
+        "type": "shallow",
+        "shape": "circle",
+        "x": 1010,
+        "y": 790,
+        "r": 55
+      },
+      {
+        "type": "water",
+        "shape": "circle",
+        "x": 1010,
+        "y": 790,
+        "r": 35
+      },
+      {
+        "type": "road",
+        "shape": "line",
+        "path": [
+          [
+            0,
+            450
+          ],
+          [
+            300,
+            430
+          ],
+          [
+            600,
+            470
+          ],
+          [
+            900,
+            430
+          ],
+          [
+            1200,
+            450
+          ]
+        ],
+        "width": 16
+      },
+      {
+        "type": "road",
+        "shape": "line",
+        "path": [
+          [
+            600,
+            0
+          ],
+          [
+            620,
+            300
+          ],
+          [
+            600,
+            470
+          ],
+          [
+            580,
+            900
+          ]
+        ],
+        "width": 14
+      },
+      {
+        "type": "building",
+        "shape": "rect",
+        "x": 555,
+        "y": 395,
+        "w": 28,
+        "h": 22
+      },
+      {
+        "type": "building",
+        "shape": "rect",
+        "x": 632,
+        "y": 410,
+        "w": 22,
+        "h": 34
+      },
+      {
+        "type": "building",
+        "shape": "rect",
+        "x": 535,
+        "y": 500,
+        "w": 32,
+        "h": 22
+      },
+      {
+        "type": "building",
+        "shape": "rect",
+        "x": 640,
+        "y": 505,
+        "w": 26,
+        "h": 26
+      },
+      {
+        "type": "building",
+        "shape": "rect",
+        "x": 595,
+        "y": 360,
+        "w": 22,
+        "h": 16
+      },
+      {
+        "type": "rock",
+        "shape": "circle",
+        "x": 480,
+        "y": 120,
+        "r": 15
+      },
+      {
+        "type": "rock",
+        "shape": "circle",
+        "x": 700,
+        "y": 800,
+        "r": 15
+      },
+      {
+        "type": "rock",
+        "shape": "circle",
+        "x": 260,
+        "y": 560,
+        "r": 12
+      }
+    ]
+  }
+]
