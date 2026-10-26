@@ -1,0 +1,187 @@
+[
+  {
+    "id": "practice_stgloriana",
+    "name": "練習試合：大洗 vs 聖グロリアーナ",
+    "map": "practice_field",
+    "mode": "flag",
+    "time_limit_s": 1200,
+    "description": "フラッグ戦。大洗のフラッグ車は38(t)。チャーチルの正面装甲152mmは、IV号のAPCRか側面への回り込みで抜く。",
+    "teams": {
+      "A": {
+        "name": "大洗女子学園",
+        "color": "#3d7bd9",
+        "spawn": {
+          "x": 50,
+          "y": 330,
+          "w": 150,
+          "h": 260,
+          "facing_deg": 0
+        },
+        "squads": [
+          {
+            "id": 1,
+            "name": "あんこう分隊"
+          },
+          {
+            "id": 2,
+            "name": "カバ分隊"
+          },
+          {
+            "id": 3,
+            "name": "フラッグ分隊",
+            "mission": {
+              "type": "defend"
+            }
+          }
+        ],
+        "units": [
+          {
+            "tank": "pz4h",
+            "label": "あんこう",
+            "crew": [
+              "miho",
+              "hana",
+              "yukari",
+              "mako",
+              "saori"
+            ],
+            "squad": 1,
+            "leader": true
+          },
+          {
+            "tank": "type89",
+            "label": "アヒル",
+            "crew": [
+              "noriko",
+              "taeko",
+              "shinobu",
+              "akebi"
+            ],
+            "squad": 1
+          },
+          {
+            "tank": "stug3f",
+            "label": "カバ",
+            "crew": [
+              "erwin",
+              "saemonza",
+              "caesar",
+              "oryou"
+            ],
+            "squad": 2
+          },
+          {
+            "tank": "m3lee",
+            "label": "ウサギ",
+            "crew": [
+              "azusa",
+              "ayumi",
+              "aya",
+              "karina",
+              "yuuki",
+              "saki"
+            ],
+            "squad": 2
+          },
+          {
+            "tank": "t38",
+            "label": "カメ",
+            "crew": [
+              "anzu",
+              "momo",
+              "yuzu"
+            ],
+            "squad": 3,
+            "flag": true
+          }
+        ]
+      },
+      "B": {
+        "name": "聖グロリアーナ女学院",
+        "color": "#c0392b",
+        "ai": {
+          "aggression": 0.5
+        },
+        "spawn": {
+          "x": 1000,
+          "y": 330,
+          "w": 150,
+          "h": 260,
+          "facing_deg": 180
+        },
+        "squads": [
+          {
+            "id": 1,
+            "name": "ダージリン隊",
+            "ai_role": "assault"
+          },
+          {
+            "id": 2,
+            "name": "マチルダ隊",
+            "ai_role": "recon"
+          }
+        ],
+        "units": [
+          {
+            "tank": "churchill7",
+            "label": "チャーチル",
+            "crew": [
+              "darjeeling",
+              "assam",
+              "orange_pekoe",
+              "sg_driver",
+              "sg_radio"
+            ],
+            "squad": 1,
+            "leader": true,
+            "flag": true
+          },
+          {
+            "tank": "matilda2",
+            "label": "マチルダ1",
+            "crew": [
+              "sg_commander",
+              "sg_gunner",
+              "sg_loader",
+              "sg_driver"
+            ],
+            "squad": 1
+          },
+          {
+            "tank": "matilda2",
+            "label": "マチルダ2",
+            "crew": [
+              "sg_commander",
+              "sg_gunner",
+              "sg_loader",
+              "sg_driver"
+            ],
+            "squad": 1
+          },
+          {
+            "tank": "matilda2",
+            "label": "マチルダ3",
+            "crew": [
+              "sg_commander",
+              "sg_gunner",
+              "sg_loader",
+              "sg_driver"
+            ],
+            "squad": 2
+          },
+          {
+            "tank": "matilda2",
+            "label": "マチルダ4",
+            "crew": [
+              "sg_commander",
+              "sg_gunner",
+              "sg_loader",
+              "sg_driver"
+            ],
+            "squad": 2
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,538 @@
+[
+  {
+    "id": "pz4h",
+    "name": "IV号戦車H型",
+    "school": "大洗",
+    "note": "数値は仮値",
+    "size_m": {
+      "length": 5.9,
+      "width": 2.9
+    },
+    "hp": 600,
+    "armor_mm": {
+      "hull": {
+        "front": 80,
+        "side": 30,
+        "rear": 20
+      },
+      "turret": {
+        "front": 50,
+        "side": 30,
+        "rear": 30
+      },
+      "spaced_side": 8
+    },
+    "turret": true,
+    "mobility": {
+      "fwd_kmh": 38,
+      "rev_kmh": 12,
+      "hull_traverse_dps": 40,
+      "turret_traverse_dps": 30
+    },
+    "gun": {
+      "caliber_mm": 75,
+      "reload_s": 5.0,
+      "aim_s": 2.1,
+      "dispersion_m": 0.36,
+      "range_m": 600,
+      "shells": [
+        {
+          "type": "AP",
+          "pen_mm": 110,
+          "damage": 110
+        },
+        {
+          "type": "APCR",
+          "pen_mm": 158,
+          "damage": 110
+        },
+        {
+          "type": "HE",
+          "pen_mm": 38,
+          "damage": 175
+        }
+      ]
+    },
+    "view_range_m": 360,
+    "radio_range_m": 450,
+    "camo": {
+      "still": 0.18,
+      "moving": 0.14,
+      "fire_penalty": 0.1
+    },
+    "crew_slots": [
+      "commander",
+      "gunner",
+      "loader",
+      "driver",
+      "radio"
+    ],
+    "sprite": {
+      "hull": null,
+      "turret": null,
+      "turret_pivot": [
+        0.5,
+        0.5
+      ],
+      "rotation_offset_deg": 0,
+      "wreck": null
+    }
+  },
+  {
+    "id": "stug3f",
+    "name": "III号突撃砲F型",
+    "school": "大洗",
+    "note": "砲塔なし（射界±10°）。数値は仮値",
+    "size_m": {
+      "length": 6.8,
+      "width": 2.95
+    },
+    "hp": 520,
+    "armor_mm": {
+      "hull": {
+        "front": 80,
+        "side": 30,
+        "rear": 30
+      },
+      "turret": {
+        "front": 80,
+        "side": 30,
+        "rear": 30
+      },
+      "spaced_side": 0
+    },
+    "turret": false,
+    "mobility": {
+      "fwd_kmh": 40,
+      "rev_kmh": 10,
+      "hull_traverse_dps": 38,
+      "turret_traverse_dps": 20
+    },
+    "gun": {
+      "caliber_mm": 75,
+      "reload_s": 4.6,
+      "aim_s": 1.9,
+      "dispersion_m": 0.34,
+      "range_m": 600,
+      "shells": [
+        {
+          "type": "AP",
+          "pen_mm": 110,
+          "damage": 110
+        },
+        {
+          "type": "APCR",
+          "pen_mm": 158,
+          "damage": 110
+        },
+        {
+          "type": "HE",
+          "pen_mm": 38,
+          "damage": 175
+        }
+      ],
+      "arc_deg": 10
+    },
+    "view_range_m": 340,
+    "radio_range_m": 400,
+    "camo": {
+      "still": 0.3,
+      "moving": 0.18,
+      "fire_penalty": 0.08
+    },
+    "crew_slots": [
+      "commander",
+      "gunner",
+      "loader+radio",
+      "driver"
+    ],
+    "sprite": {
+      "hull": null,
+      "turret": null,
+      "turret_pivot": [
+        0.5,
+        0.5
+      ],
+      "rotation_offset_deg": 0,
+      "wreck": null
+    }
+  },
+  {
+    "id": "t38",
+    "name": "38(t)戦車B/C型",
+    "school": "大洗",
+    "note": "数値は仮値",
+    "size_m": {
+      "length": 4.6,
+      "width": 2.1
+    },
+    "hp": 300,
+    "armor_mm": {
+      "hull": {
+        "front": 25,
+        "side": 15,
+        "rear": 15
+      },
+      "turret": {
+        "front": 25,
+        "side": 15,
+        "rear": 15
+      },
+      "spaced_side": 0
+    },
+    "turret": true,
+    "mobility": {
+      "fwd_kmh": 42,
+      "rev_kmh": 14,
+      "hull_traverse_dps": 45,
+      "turret_traverse_dps": 40
+    },
+    "gun": {
+      "caliber_mm": 37,
+      "reload_s": 2.4,
+      "aim_s": 1.6,
+      "dispersion_m": 0.4,
+      "range_m": 600,
+      "shells": [
+        {
+          "type": "AP",
+          "pen_mm": 46,
+          "damage": 45
+        },
+        {
+          "type": "APCR",
+          "pen_mm": 64,
+          "damage": 45
+        },
+        {
+          "type": "HE",
+          "pen_mm": 18,
+          "damage": 60
+        }
+      ]
+    },
+    "view_range_m": 330,
+    "radio_range_m": 350,
+    "camo": {
+      "still": 0.28,
+      "moving": 0.21,
+      "fire_penalty": 0.05
+    },
+    "crew_slots": [
+      "commander+loader",
+      "gunner",
+      "driver+radio"
+    ],
+    "sprite": {
+      "hull": null,
+      "turret": null,
+      "turret_pivot": [
+        0.5,
+        0.5
+      ],
+      "rotation_offset_deg": 0,
+      "wreck": null
+    }
+  },
+  {
+    "id": "m3lee",
+    "name": "M3中戦車リー",
+    "school": "大洗",
+    "note": "主砲は車体右側の75mm（射界±15°）として扱う。37mm砲塔は省略。数値は仮値",
+    "size_m": {
+      "length": 5.6,
+      "width": 2.7
+    },
+    "hp": 480,
+    "armor_mm": {
+      "hull": {
+        "front": 51,
+        "side": 38,
+        "rear": 38
+      },
+      "turret": {
+        "front": 51,
+        "side": 51,
+        "rear": 51
+      },
+      "spaced_side": 0
+    },
+    "turret": false,
+    "mobility": {
+      "fwd_kmh": 39,
+      "rev_kmh": 12,
+      "hull_traverse_dps": 35,
+      "turret_traverse_dps": 25
+    },
+    "gun": {
+      "caliber_mm": 75,
+      "reload_s": 4.2,
+      "aim_s": 2.3,
+      "dispersion_m": 0.45,
+      "range_m": 600,
+      "shells": [
+        {
+          "type": "AP",
+          "pen_mm": 76,
+          "damage": 110
+        },
+        {
+          "type": "APCR",
+          "pen_mm": 98,
+          "damage": 110
+        },
+        {
+          "type": "HE",
+          "pen_mm": 38,
+          "damage": 175
+        }
+      ],
+      "arc_deg": 15
+    },
+    "view_range_m": 340,
+    "radio_range_m": 420,
+    "camo": {
+      "still": 0.1,
+      "moving": 0.08,
+      "fire_penalty": 0.1
+    },
+    "crew_slots": [
+      "commander",
+      "gunner",
+      "loader",
+      "driver",
+      "radio",
+      "loader"
+    ],
+    "sprite": {
+      "hull": null,
+      "turret": null,
+      "turret_pivot": [
+        0.5,
+        0.5
+      ],
+      "rotation_offset_deg": 0,
+      "wreck": null
+    }
+  },
+  {
+    "id": "type89",
+    "name": "八九式中戦車甲型",
+    "school": "大洗",
+    "note": "数値は仮値",
+    "size_m": {
+      "length": 4.3,
+      "width": 2.2
+    },
+    "hp": 260,
+    "armor_mm": {
+      "hull": {
+        "front": 17,
+        "side": 15,
+        "rear": 15
+      },
+      "turret": {
+        "front": 17,
+        "side": 15,
+        "rear": 15
+      },
+      "spaced_side": 0
+    },
+    "turret": true,
+    "mobility": {
+      "fwd_kmh": 25,
+      "rev_kmh": 8,
+      "hull_traverse_dps": 36,
+      "turret_traverse_dps": 30
+    },
+    "gun": {
+      "caliber_mm": 57,
+      "reload_s": 3.2,
+      "aim_s": 2.0,
+      "dispersion_m": 0.55,
+      "range_m": 600,
+      "shells": [
+        {
+          "type": "AP",
+          "pen_mm": 30,
+          "damage": 75
+        },
+        {
+          "type": "HE",
+          "pen_mm": 25,
+          "damage": 100
+        }
+      ]
+    },
+    "view_range_m": 320,
+    "radio_range_m": 350,
+    "camo": {
+      "still": 0.24,
+      "moving": 0.18,
+      "fire_penalty": 0.08
+    },
+    "crew_slots": [
+      "commander+loader",
+      "radio",
+      "driver",
+      "gunner"
+    ],
+    "sprite": {
+      "hull": null,
+      "turret": null,
+      "turret_pivot": [
+        0.5,
+        0.5
+      ],
+      "rotation_offset_deg": 0,
+      "wreck": null
+    }
+  },
+  {
+    "id": "matilda2",
+    "name": "マチルダII",
+    "school": "聖グロリアーナ",
+    "note": "数値は仮値",
+    "size_m": {
+      "length": 5.6,
+      "width": 2.6
+    },
+    "hp": 480,
+    "armor_mm": {
+      "hull": {
+        "front": 78,
+        "side": 65,
+        "rear": 55
+      },
+      "turret": {
+        "front": 75,
+        "side": 75,
+        "rear": 75
+      },
+      "spaced_side": 0
+    },
+    "turret": true,
+    "mobility": {
+      "fwd_kmh": 24,
+      "rev_kmh": 10,
+      "hull_traverse_dps": 32,
+      "turret_traverse_dps": 28
+    },
+    "gun": {
+      "caliber_mm": 40,
+      "reload_s": 2.6,
+      "aim_s": 1.7,
+      "dispersion_m": 0.36,
+      "range_m": 600,
+      "shells": [
+        {
+          "type": "AP",
+          "pen_mm": 64,
+          "damage": 50
+        },
+        {
+          "type": "APCR",
+          "pen_mm": 100,
+          "damage": 50
+        }
+      ]
+    },
+    "view_range_m": 340,
+    "radio_range_m": 400,
+    "camo": {
+      "still": 0.1,
+      "moving": 0.07,
+      "fire_penalty": 0.05
+    },
+    "crew_slots": [
+      "commander",
+      "gunner",
+      "loader+radio",
+      "driver"
+    ],
+    "sprite": {
+      "hull": null,
+      "turret": null,
+      "turret_pivot": [
+        0.5,
+        0.5
+      ],
+      "rotation_offset_deg": 0,
+      "wreck": null
+    }
+  },
+  {
+    "id": "churchill7",
+    "name": "チャーチルMk.VII",
+    "school": "聖グロリアーナ",
+    "note": "数値は仮値",
+    "size_m": {
+      "length": 7.4,
+      "width": 3.3
+    },
+    "hp": 750,
+    "armor_mm": {
+      "hull": {
+        "front": 152,
+        "side": 95,
+        "rear": 50
+      },
+      "turret": {
+        "front": 152,
+        "side": 95,
+        "rear": 95
+      },
+      "spaced_side": 0
+    },
+    "turret": true,
+    "mobility": {
+      "fwd_kmh": 20,
+      "rev_kmh": 8,
+      "hull_traverse_dps": 26,
+      "turret_traverse_dps": 22
+    },
+    "gun": {
+      "caliber_mm": 75,
+      "reload_s": 4.4,
+      "aim_s": 2.2,
+      "dispersion_m": 0.4,
+      "range_m": 600,
+      "shells": [
+        {
+          "type": "AP",
+          "pen_mm": 91,
+          "damage": 110
+        },
+        {
+          "type": "HE",
+          "pen_mm": 38,
+          "damage": 175
+        }
+      ]
+    },
+    "view_range_m": 360,
+    "radio_range_m": 500,
+    "camo": {
+      "still": 0.05,
+      "moving": 0.03,
+      "fire_penalty": 0.1
+    },
+    "crew_slots": [
+      "commander",
+      "gunner",
+      "loader",
+      "driver",
+      "radio"
+    ],
+    "sprite": {
+      "hull": null,
+      "turret": null,
+      "turret_pivot": [
+        0.5,
+        0.5
+      ],
+      "rotation_offset_deg": 0,
+      "wreck": null
+    }
+  }
+]
